@@ -12,7 +12,7 @@ export default defineAppConfig({
     navigationBarTextStyle: 'black'
   },
   tabBar: {
-    custom: true,
+    custom: true, // 设置为 false 小程序可以正常显示，但是h5不行
     color: '#000000',
     selectedColor: '#DC143C',
     backgroundColor: '#ffffff',
